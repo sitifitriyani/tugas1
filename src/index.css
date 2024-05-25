@@ -1,0 +1,76 @@
+.App{
+  text-align: center;
+}
+.candidate-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.candidate-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+}
+
+.candidate-number {
+  background-color: rgb(216, 0, 0);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.candidate-number:hover,
+.candidate-number:focus {
+  background-color: darkgreen;
+}
+
+.candidate-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.candidate-card h2 {
+  font-size: 1.2em;
+  margin: 8px 0;
+}
+
+.candidate-card p {
+  margin: 8px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+
+.candidate-card button {
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(197, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s ease;
+}
+
+.candidate-card button:hover,
+.candidate-card button:focus {
+  background-color: darkred;
+}
+
+
